@@ -1,0 +1,62 @@
+*{
+    background-origin: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cards{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.card{
+    height: 70vh;
+    width: 10vh;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all o.5s ease-in;
+}
+
+.card.active{
+    width: 60vh;
+}
+.card:nth-child(1){
+    background-color: aqua;
+}
+
+.card:nth-child(2){
+    background-color: green;
+}
+
+.card:nth-child(3){
+    background-color: slateblue;
+}
+
+.card:nth-child(4){
+    background-color: salmon;
+}
+
+.card:nth-child(5){
+    background-color: purple;
+}
+
+.card:nth-child(6){
+    background-color: blue;
+}
+
+.card:nth-child(7){
+    background-color: indigo;
+}

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.border{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #000;
+    background: grey;
+    border-radius: 100%;
+}
+
+.btns{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn{
+    font-size: 15px;
+    padding: 0 15px;
+    cursor: pointer;
+}

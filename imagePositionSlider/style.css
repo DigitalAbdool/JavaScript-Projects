@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #000;
+    color: #fff;
+}
+
+.border{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px whitesmoke dashed;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img{
+    height: 75px;
+    width: 80px;
+    background-color: red;
+    position: absolute;
+    cursor: pointer;
+}
+
+.inputs{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    width: 300px;
+    cursor: pointer;
+}
