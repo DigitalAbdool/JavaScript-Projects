@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+
+}
+.App{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    box-shadow:  0 0 5px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.btn, span, h3{
+    color: #fff;
+}
+
+.btn{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+    transform: all 0.3s;
+}
+
+.btn:last-child {
+    margin: 0;
+}
+
+.btn:active{
+    transform: translateY(5px);
+}
+
+.output{
+    font-size: 30px;
+    font-weight: 600px;
+}
+h3{
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.decrease{
+    background: #f03e3e;
+}
+
+.reset{
+    background: #726767;
+}
+
+.increase{
+    background: #37b24d;
+}
